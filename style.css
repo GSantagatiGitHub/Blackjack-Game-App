@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1543307757-b6f2a50ff6d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80);
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+#message {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: red;
+}
+
+#cards, #sum, #player {
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#btn, #btn-2 {
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: rgb(206, 255, 109);
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
+#btn-2:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
